@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_details",
+  "info": {
+    "singularName": "job-detail",
+    "pluralName": "job-details",
+    "displayName": "JobDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Role": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "text"
+    },
+    "IsActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "modeOfWork": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "MinCTC": {
+      "type": "biginteger"
+    },
+    "MaxCTC": {
+      "type": "biginteger"
+    },
+    "yearOfExperience": {
+      "type": "string"
+    },
+    "ApplyBy": {
+      "type": "string"
+    },
+    "companyDescription": {
+      "type": "richtext"
+    },
+    "jobDescription": {
+      "type": "richtext"
+    },
+    "eligibility": {
+      "type": "richtext"
+    },
+    "perks": {
+      "type": "richtext"
+    },
+    "skillsRequired": {
+      "type": "richtext"
+    },
+    "NoOfOpening": {
+      "type": "integer"
+    },
+    "companyLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
